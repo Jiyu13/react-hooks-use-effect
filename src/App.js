@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      {/* 2. ass onClick event listener to update count */}
+      {/* 2. add onClick event listener to update count */}
       <button onClick={() => setCount((count) => count + 1)}>
         I've been clicked {count} times
       </button>;
