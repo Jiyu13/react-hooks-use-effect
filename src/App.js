@@ -5,6 +5,7 @@ function App() {
   const [count, setCount] = useState(0)
   const [text, setText] = useState("")
 
+  // 5. only show side effects when text changes
   useEffect(() => {
     document.title = text
   }, [text])
