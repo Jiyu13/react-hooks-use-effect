@@ -6,9 +6,12 @@ function App() {
   const [text, setText] = useState("")
 
 
-  useEffect(() => {
-    console.log("useEffect called");
-  });
+  useEffect(() => 
+    console.log("useEffect called"),
+    // 3. pass in a second arg - a dependency array
+    // [count]
+    []
+  );
 
   console.log("Component rendering");
 
