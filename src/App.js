@@ -18,6 +18,13 @@ function App() {
       <button onClick={() => setCount((count) => count + 1)}>
         I've been clicked {count} times
       </button>;
+      <input
+        type="text"
+        placeholder="Type away..."
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+      >
+      </input>
     </div>
     
   )
