@@ -23,6 +23,12 @@ function App() {
 
   console.log("Component rendering");
 
+  // useEffect(() => {
+  //   console.log("useEffect called");
+  // });
+
+  // console.log("Component rendering");
+
   return (
     <div>
       {/* 2. add onClick event listener to update count */}
